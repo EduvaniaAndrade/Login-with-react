@@ -36,3 +36,219 @@
     transform: rotate(360deg);
   }
 }
+.ContainerLeft,
+.ContainerRight
+{
+  border: none;
+  float: left;
+  width: 50%;
+  height: 100vh;
+  z-index: -999;
+}
+
+.ContainerLeft{
+  background-color: #cce4ff;
+}
+
+.ContainerRight{
+  background-color: #1e1f6f;
+  right: 0;
+}
+
+.MainContainer
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 999;
+  width: 90%;
+  height: 80%;
+  transform: translate(-50%, -50%);
+  box-shadow: -3px 3px 10px 0px #707070;
+  border-radius: 10px;
+  box-sizing: content-box;
+}
+
+.ContainerImage,
+.ContainerLogin
+{
+  float: left;
+  height: 100%;
+  background-color: #fff;
+  box-sizing: content-box;
+}
+
+.ContainerImage
+{
+  width: 51%;
+  background-color: #e6f2ff;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.ContainerLogin
+{
+  width: 49%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 40px 0 0 0;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 13px;
+}
+
+.content-learn-more
+{
+  padding: 0;
+  float: right;
+  margin-right: 40px;
+  margin-top: 40px;
+  text-align: right;
+}
+
+.content-learn-more h3
+{
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.content-learn-more span
+{
+  font-size: 14px;
+  display: block;
+  color: #898989;
+}
+
+.content-learn-more button
+{
+  border: 1px solid #898989;
+  background-color: transparent;
+  padding: 5px 12px;
+  font-size: 12px;
+  margin-top: 10px;
+  border-radius: 3px;
+}
+.LoginImage
+{
+  position: relative;
+  bottom: 100px;
+}
+
+.logo
+{
+  width: 100px;
+  height: 50px;
+}
+
+.ContainerLogin input,
+.ContainerLogin span,
+.ContainerLogin button
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ContainerLogin input:not(.checkBox)
+{
+  width: 240px;
+  height: 25px;
+  margin-bottom: 5px;
+  border-radius: 3px;
+  text-indent: 15px;
+  color: #000;
+  border: 1px solid #898989;
+}
+
+.google-login,
+.email-login 
+{
+  margin-bottom: 20px;
+}
+
+.google-login
+{
+  padding: 5px 0;
+  width: 250px;
+  background-color: transparent;
+  border: none;
+  box-shadow: 2px 2px 5px 0px #898989;
+}
+
+.submit-button
+{
+  background-color: #1e1f6f;
+  color: #fff;
+  width: 250px;
+  padding: 8px 0;
+  border: none;
+  border-radius: 3px;
+  margin: 20px 0;
+}
+
+.submit-button .icon
+{
+  float: right;
+  margin-right: 10px;
+}
+
+.icon-google
+{
+  float: left;
+  margin-left: 20px;
+}
+
+/* .email-login::before, */
+.email-login::after
+{
+  content: '';
+  background-color: #898989;
+  width: 40px;
+  height: 0.5px;
+  margin-top: 8px;
+  position: absolute;
+}
+
+.email-login::before
+{
+  content: '';
+  background-color: #898989;
+  width: 40px;
+  height: 0.5px;
+  margin-top: 8px;
+  left: 12rem;
+  position: absolute;
+}
+
+.keep-logged
+{
+  margin-top: 10px;
+}
+
+.keep-logged span,
+.keep-logged input
+{
+  display: inline-block;
+}
+
+.forget-password
+{
+  margin-right: 25px!important;
+}
+
+hr
+{
+  width: 240px;
+}
+
+.new-account span {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.span-link
+{
+  color: #1e1f6f;
+  cursor: pointer;
+}
